@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+
+   /* =========================== Common Mother Sytles  ========================= */
+
+  .sectionGap{
+    @apply 2xl:pt-[200px] 2xl:px-[100px]
+  }
+  .titleHeading{
+    @apply 2xl:text-[80px] 2xl:leading-[96px] 2xl:pb-[35px]
+
+    /* ------ common sytles ---- */
+    font-title font-bold
+  }
+
+  .commonPara{
+    @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:pb-[35px] 
+
+    /* ------- common styles -------- */
+    font-paragraph font-normal
+  }
+
+  /* =========================== Common Mother Sytles End ========================= */
+
+
+  /* =========================== Navbar styles here ========================= */
+  .headerLogo {
+    @apply 2xl:w-[205px] 2xl:h-[52px]
+    
+    /* -------- common sytles here ---------- */
+    object-cover
+  }
+
+  .navbarParent{
+    @apply 2xl:flex 2xl:justify-between 2xl:items-center
+  }
+
+  .listParent{
+    @apply 2xl:flex 2xl:space-x-[45px] 2xl:text-[20px] 2xl:leading-[20px]
+
+    /* -------- common styles ------- */
+    font-title font-medium
+  }
+
+  .herobtnParent{
+    @apply 2xl:space-x-[15px]
+  }
+
+  .headerBtnText{
+    @apply 2xl:py-[17px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px]
+
+    /* --------- common styles --------- */
+    font-title font-bold cursor-pointer
+    
+  }
+  .navbarLeftRightSpace{
+    @apply 2xl:py-[50px] 2xl:px-[100px]
+
+    /* ------ common sytles here ---------- */
+  }
+
+  /* ========================== hero content styles ============= */
+
+  .heroContainerbtnParent{
+    @apply  2xl:space-x-[35px]
+  }
+
+  .heroContentParent{
+    @apply 2xl:grid 2xl:grid-cols-2   2xl:items-center 
+  }
+  
+  .heroContentImg{
+    @apply 2xl:w-[900px] 2xl:h-[812px]
+
+    /* -------- common sytles ----- */
+    object-cover
+  }
+
+
+  /* ======================== About Us styles Start Here ======================= */
+  .aboutUsParent {
+    @apply 2xl:grid 2xl:grid-cols-2  
+  }
+
+  .aboutUsImg{
+    @apply 2xl:rounded-[10px]
+
+    /* -------- common styles here-------- */
+    object-cover
+  }
+
+}
