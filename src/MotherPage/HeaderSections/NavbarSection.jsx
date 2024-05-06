@@ -20,7 +20,7 @@ const NavbarSection = () => {
                     </div>
                     <div>
                         <div className="herobtnParent">
-                            <button className="headerBtnText border border-[2px] border-black ">Start A Conversation</button>
+                            <button className="headerBtnTextWhite ">Start A Conversation</button>
                             <button className="headerBtnText bg-[#E12026] text-white">Get a Quote</button>
                         </div>
                     </div>

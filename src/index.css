@@ -61,6 +61,15 @@
     font-title font-bold cursor-pointer
     
   }
+
+  .headerBtnTextWhite{
+    @apply 2xl:py-[15px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px]
+
+    /* --------- common styles --------- */
+    font-title font-bold cursor-pointer  border-[2px] border-black
+    
+  }
+
   .navbarLeftRightSpace{
     @apply 2xl:py-[50px] 2xl:px-[100px]
 
@@ -87,7 +96,7 @@
 
   /* ======================== About Us styles Start Here ======================= */
   .aboutUsParent {
-    @apply 2xl:grid 2xl:grid-cols-2  
+    @apply 2xl:grid 2xl:grid-cols-2  2xl:gap-x-[70px]
   }
 
   .aboutUsImg{
@@ -95,6 +104,42 @@
 
     /* -------- common styles here-------- */
     object-cover
+  }
+
+
+  /* ====================== why choose us section styles sections =========================== */
+  .whyChooseUsParent {
+    @apply 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[70px]
+  }
+  
+  .iconsParentWhyUsSection{
+    @apply 2xl:h-[73px] 
+
+    /* ------common styles ----------- */
+    bg-[#F1F0F0] rounded-full
+  }
+
+  .innerParentWhyUs{
+    @apply 2xl:h-[67px] 2xl:w-[67px] 2xl:py-[3px] 2xl:pl-[3px]
+
+    /* ------common styles ----------- */
+    bg-[#E12026] rounded-full flex justify-center items-center
+  }
+
+
+  .webHealthText{
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[15px]
+
+     /* ------common styles ----------- */
+     font-title font-medium
+    }
+    
+    .iconsSingleParent{
+      @apply 2xl:h-[73px] 2xl:w-[73px]
+      
+      /* ------common styles ----------- */
+      rounded-full bg-[#F1F0F0] flex justify-center items-center
+    
   }
 
 }

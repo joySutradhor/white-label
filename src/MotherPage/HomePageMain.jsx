@@ -1,5 +1,6 @@
 import AboutUsSection from "./AboutUsSection/AboutUsAboutUsSection";
 import NavbarSection from "./HeaderSections/NavbarSection";
+import WhyUsSection from './WhyUsSection/WhyUsSection';
 
 
 const HomePageMain = () => {
@@ -7,6 +8,7 @@ const HomePageMain = () => {
         <div>
             <NavbarSection></NavbarSection>
             <AboutUsSection></AboutUsSection>
+            <WhyUsSection></WhyUsSection>
         </div>
     );
 };
