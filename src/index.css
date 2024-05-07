@@ -127,6 +127,22 @@
     rounded-full bg-[#F1F0F0] flex justify-center items-center
   }
 
+  /* ====================== our work section styles sections =========================== */
+
+  .ourWorkImgOne{
+    @apply 2xl:h-[690.98px] z-10
+  }
+
+  .sliderArrowIcon{
+    @apply 2xl:h-[91.69px] 2xl:w-[91.69px]
+
+    /* ----------- common styles --------- */
+    rounded-full bg-white
+  }
+
+
+
+
   /* ====================== what We Do  section styles sections =========================== */
 
   .whatWeDoHeadingParent {

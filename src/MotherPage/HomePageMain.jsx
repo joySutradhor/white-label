@@ -7,6 +7,7 @@ import PeopleTalkingSection from "./PeopleTalkingSection/PeopleTalkingSection";
 import RiskFreeCta from './RiskFreeCta/RiskFreeCta.jsx';
 import EngagementSection from "./EngagementSection/EngagementSection.jsx";
 import CollaborateSection from "./CollaborateSection/CollaborateSection.jsx";
+import OurWorkSection from "./OurWorkSection/OurWorkSection.jsx";
 
 
 
@@ -17,6 +18,7 @@ const HomePageMain = () => {
             <NavbarSection></NavbarSection>
             <AboutUsSection></AboutUsSection>
             <WhyUsSection></WhyUsSection>
+            <OurWorkSection></OurWorkSection>
             <WhatWeDoSection></WhatWeDoSection>
             <OurClientSection></OurClientSection>
             <PeopleTalkingSection></PeopleTalkingSection>
