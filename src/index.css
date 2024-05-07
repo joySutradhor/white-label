@@ -142,4 +142,71 @@
     
   }
 
-}
+   /* ====================== what We Do  section styles sections =========================== */
+   
+   .whatWeDoHeadingParent{
+     @apply 2xl:flex  2xl:place-content-center 
+     
+     /* -------------- common styles ----------- */
+     text-center
+    }
+    
+    .whatWeDoPara{
+      @apply 2xl:px-[20%] flex justify-center 
+    }
+    
+    .whatWeDoMainParent{
+      @apply 2xl:py-[50px]  bg-[#f1f0f0]
+    }
+    
+    /* ----------- card styles ------------ */
+    .listItemParentOne{
+      @apply 2xl:flex 2xl:items-center 2xl:space-x-[15px] 
+    }
+    .listItemParent{
+      @apply 2xl:flex 2xl:items-center 2xl:space-x-[15px] 2xl:pt-[26px]
+    }
+    
+    .listBullet{
+      @apply 2xl:h-[22px] 2xl:w-[22px] 
+      
+      /* ----------- common sytles --------- */
+      rounded-full bg-[#E12026] flex justify-center items-center text-white
+    }
+    
+    .listItemsTitle{
+      @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[35px]
+      
+      /* ----------- common sytles --------- */
+      font-title font-semibold 
+      
+    }
+    
+    .singleListItem{
+      @apply 2xl:text-[20px] 2xl:leading-[24px]
+      
+      /* ----------- common sytles --------- */
+      font-paragraph font-semibold
+      
+    }
+    
+    .contentCardMainParent{
+      @apply 2xl:grid 2xl:grid-cols-4 2xl:justify-between 2xl:gap-x-[80px]
+    }
+    
+    /* ====================== our client section styles sections =========================== */
+    .ourClientHeading{
+    @apply 2xl:flex  2xl:place-content-center 
+     
+      /* -------------- common styles ----------- */
+      text-center
+    }
+
+    .OurClinetPara{
+      @apply 2xl:px-[18%] flex justify-center font-paragraph font-normal 2xl:pb-[50px]
+    }
+
+    .ourClientImgParent{
+      @apply 2xl:h-[777px] 2xl:px-[10%]
+    }
+  }
