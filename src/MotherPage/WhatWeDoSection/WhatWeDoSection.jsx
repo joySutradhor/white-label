@@ -7,7 +7,10 @@ const WhatWeDoSection = () => {
             <div className="whatWeDoMainParent">
                 <div className="whatWeDoHeadingParent">
                     <div>
-                        <h2 className="titleHeading">What We Can Do For You</h2>
+                        <h2 className="titleHeading relative">What We Can Do
+                        <span className="relative z-20">For You</span>
+                        <span className="absolute z-10 2xl:bottom-[55px] 2xl:right-[510px] 2xl:w-[270px] 2xl:h-[7px] bg-red-700"></span>
+                         </h2>
                         <p className="commonPara whatWeDoPara 2xl:pb-[80px]">Our white-label services allow you to expand your offerings to clients with top-notch web development solutions. Our expert team of developers, designers, and project managers work behind the scenes to deliver exceptional results that meet your clients' specific needs.</p>
                     </div>
                 </div>

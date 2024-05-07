@@ -14,7 +14,7 @@ const WhyUsSection = () => {
                     <img className="h-full w-full object-cover rounded-[10px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1714974336/whiteLebel/whyUs_euww80.png" alt="" />
                 </div>
                 <div>
-                    <h1 className="titleHeading"> So, Why Us? </h1>
+                    <h1 className="titleHeading relative"> <span className="relative z-20">So, Why Us?</span> <span className="absolute z-10 2xl:bottom-[55px] 2xl:left-0 2xl:w-[440px] 2xl:h-[7px] bg-red-700"></span> </h1>
                     <p className="commonPara">So you can optimize costs and effectiveness, access to a diverse range of skills and experience, increase your business offerings to clients, take more projects without having to worry about capacity constraints. But there's more. take more projects without having to worry about capacity constraints. But there's more. take more projects without having to worry about capacity constraints. But there's more. take more projects without having to worry about capacity constraints. But there's more. take more projects without having to worry about capacity constraints. But there's more. take more projects without having to worry about capacity constraints. But there's more.</p>
                     <div>
                         <div className="flex 2xl:space-x-[35px]">

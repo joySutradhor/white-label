@@ -9,21 +9,20 @@
 
 @layer utilities {
 
-   /* =========================== Common Mother Sytles  ========================= */
+  /* =========================== Common Mother Sytles  ========================= */
 
-  .sectionGap{
+  .sectionGap {
     @apply 2xl:pt-[200px] 2xl:px-[100px]
   }
-  .titleHeading{
-    @apply 2xl:text-[80px] 2xl:leading-[96px] 2xl:pb-[35px]
 
+  .titleHeading {
+    @apply 2xl:text-[80px] 2xl:leading-[96px] 2xl:pb-[35px]
     /* ------ common sytles ---- */
     font-title font-bold
   }
 
-  .commonPara{
-    @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:pb-[35px] 
-
+  .commonPara {
+    @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:pb-[35px]
     /* ------- common styles -------- */
     font-paragraph font-normal
   }
@@ -34,61 +33,53 @@
   /* =========================== Navbar styles here ========================= */
   .headerLogo {
     @apply 2xl:w-[205px] 2xl:h-[52px]
-    
     /* -------- common sytles here ---------- */
     object-cover
   }
 
-  .navbarParent{
+  .navbarParent {
     @apply 2xl:flex 2xl:justify-between 2xl:items-center
   }
 
-  .listParent{
+  .listParent {
     @apply 2xl:flex 2xl:space-x-[45px] 2xl:text-[20px] 2xl:leading-[20px]
-
     /* -------- common styles ------- */
     font-title font-medium
   }
 
-  .herobtnParent{
+  .herobtnParent {
     @apply 2xl:space-x-[15px]
   }
 
-  .headerBtnText{
+  .headerBtnText {
     @apply 2xl:py-[17px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px]
-
     /* --------- common styles --------- */
     font-title font-bold cursor-pointer
-    
   }
 
-  .headerBtnTextWhite{
+  .headerBtnTextWhite {
     @apply 2xl:py-[15px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px]
-
     /* --------- common styles --------- */
-    font-title font-bold cursor-pointer  border-[2px] border-black
-    
+    font-title font-bold cursor-pointer border-[2px] border-black
   }
 
-  .navbarLeftRightSpace{
+  .navbarLeftRightSpace {
     @apply 2xl:py-[50px] 2xl:px-[100px]
-
     /* ------ common sytles here ---------- */
   }
 
   /* ========================== hero content styles ============= */
 
-  .heroContainerbtnParent{
-    @apply  2xl:space-x-[35px]
+  .heroContainerbtnParent {
+    @apply 2xl:space-x-[35px]
   }
 
-  .heroContentParent{
-    @apply 2xl:grid 2xl:grid-cols-2   2xl:items-center 
+  .heroContentParent {
+    @apply 2xl:grid 2xl:grid-cols-2 2xl:items-center
   }
-  
-  .heroContentImg{
+
+  .heroContentImg {
     @apply 2xl:w-[900px] 2xl:h-[812px]
-
     /* -------- common sytles ----- */
     object-cover
   }
@@ -96,12 +87,11 @@
 
   /* ======================== About Us styles Start Here ======================= */
   .aboutUsParent {
-    @apply 2xl:grid 2xl:grid-cols-2  2xl:gap-x-[70px]
+    @apply 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[70px]
   }
 
-  .aboutUsImg{
+  .aboutUsImg {
     @apply 2xl:rounded-[10px]
-
     /* -------- common styles here-------- */
     object-cover
   }
@@ -111,102 +101,217 @@
   .whyChooseUsParent {
     @apply 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[70px]
   }
-  
-  .iconsParentWhyUsSection{
-    @apply 2xl:h-[73px] 
 
+  .iconsParentWhyUsSection {
+    @apply 2xl:h-[73px]
     /* ------common styles ----------- */
     bg-[#F1F0F0] rounded-full
   }
 
-  .innerParentWhyUs{
+  .innerParentWhyUs {
     @apply 2xl:h-[67px] 2xl:w-[67px] 2xl:py-[3px] 2xl:pl-[3px]
-
     /* ------common styles ----------- */
     bg-[#E12026] rounded-full flex justify-center items-center
   }
 
 
-  .webHealthText{
+  .webHealthText {
     @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[15px]
+    /* ------common styles ----------- */
+    font-title font-medium
+  }
 
-     /* ------common styles ----------- */
-     font-title font-medium
-    }
-    
-    .iconsSingleParent{
-      @apply 2xl:h-[73px] 2xl:w-[73px]
-      
-      /* ------common styles ----------- */
-      rounded-full bg-[#F1F0F0] flex justify-center items-center
+  .iconsSingleParent {
+    @apply 2xl:h-[73px] 2xl:w-[73px]
+    /* ------common styles ----------- */
+    rounded-full bg-[#F1F0F0] flex justify-center items-center
+  }
+
+  /* ====================== what We Do  section styles sections =========================== */
+
+  .whatWeDoHeadingParent {
+    @apply 2xl:flex 2xl:place-content-center
+    /* -------------- common styles ----------- */
+    text-center
+  }
+
+  .whatWeDoPara {
+    @apply 2xl:px-[20%] flex justify-center
+  }
+
+  .whatWeDoMainParent {
+    @apply 2xl:py-[50px] bg-[#f1f0f0]
+  }
+
+  /* ----------- card styles ------------ */
+  .listItemParentOne {
+    @apply 2xl:flex 2xl:items-center 2xl:space-x-[15px]
+  }
+
+  .listItemParent {
+    @apply 2xl:flex 2xl:items-center 2xl:space-x-[15px] 2xl:pt-[26px]
+  }
+
+  .listBullet {
+    @apply 2xl:h-[22px] 2xl:w-[22px]
+    /* ----------- common sytles --------- */
+    rounded-full bg-[#E12026] flex justify-center items-center text-white
+  }
+
+  .listItemsTitle {
+    @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[35px]
+    /* ----------- common sytles --------- */
+    font-title font-semibold
+  }
+
+  .singleListItem {
+    @apply 2xl:text-[20px] 2xl:leading-[24px]
+    /* ----------- common sytles --------- */
+    font-paragraph font-semibold
+  }
+
+  .contentCardMainParent {
+    @apply 2xl:grid 2xl:grid-cols-4 2xl:justify-between 2xl:gap-x-[80px]
+  }
+
+  /* ====================== our client section styles sections =========================== */
+  .ourClientHeading {
+    @apply 2xl:flex 2xl:place-content-center
+    /* -------------- common styles ----------- */
+    text-center
+  }
+
+  .OurClinetPara {
+    @apply 2xl:px-[18%] flex justify-center font-paragraph font-normal 2xl:pb-[50px]
+  }
+
+  .ourClientImgParent {
+    @apply 2xl:h-[777px] 2xl:px-[10%]
+  }
+
+  
+  /* ====================== our client section styles sections =========================== */
+
+  .peopleCardParent{
+    @apply 2xl:py-[50px] 2xl:px-[35px] 
+  
+  }
+
+  .PeoplePara{
+    @apply 2xl:text-[25px] 2xl:leading-[35.7px] 2xl:py-[50px]
+
+    /* -------- common styles ---------- */
+    font-paragraph font-normal 
+  }
+
+  .peopleProfileImg{
+    @apply 2xl:h-[51px] 2xl:w-[51px] 
+
+    /* ---------- common sytles --------- */
     
   }
 
-   /* ====================== what We Do  section styles sections =========================== */
-   
-   .whatWeDoHeadingParent{
-     @apply 2xl:flex  2xl:place-content-center 
-     
-     /* -------------- common styles ----------- */
-     text-center
-    }
-    
-    .whatWeDoPara{
-      @apply 2xl:px-[20%] flex justify-center 
-    }
-    
-    .whatWeDoMainParent{
-      @apply 2xl:py-[50px]  bg-[#f1f0f0]
-    }
-    
-    /* ----------- card styles ------------ */
-    .listItemParentOne{
-      @apply 2xl:flex 2xl:items-center 2xl:space-x-[15px] 
-    }
-    .listItemParent{
-      @apply 2xl:flex 2xl:items-center 2xl:space-x-[15px] 2xl:pt-[26px]
-    }
-    
-    .listBullet{
-      @apply 2xl:h-[22px] 2xl:w-[22px] 
-      
-      /* ----------- common sytles --------- */
-      rounded-full bg-[#E12026] flex justify-center items-center text-white
-    }
-    
-    .listItemsTitle{
-      @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[35px]
-      
-      /* ----------- common sytles --------- */
-      font-title font-semibold 
-      
-    }
-    
-    .singleListItem{
-      @apply 2xl:text-[20px] 2xl:leading-[24px]
-      
-      /* ----------- common sytles --------- */
-      font-paragraph font-semibold
-      
-    }
-    
-    .contentCardMainParent{
-      @apply 2xl:grid 2xl:grid-cols-4 2xl:justify-between 2xl:gap-x-[80px]
-    }
-    
-    /* ====================== our client section styles sections =========================== */
-    .ourClientHeading{
-    @apply 2xl:flex  2xl:place-content-center 
-     
-      /* -------------- common styles ----------- */
-      text-center
-    }
+  .peopleProfileHead{
+    @apply 2xl:text-[20px] 2xl:leading-[30px]
 
-    .OurClinetPara{
-      @apply 2xl:px-[18%] flex justify-center font-paragraph font-normal 2xl:pb-[50px]
-    }
-
-    .ourClientImgParent{
-      @apply 2xl:h-[777px] 2xl:px-[10%]
-    }
+    /* ---------- common sytles --------- */
+    font-title font-medium
   }
+
+
+   /* ====================== Risk Free section styles sections =========================== */
+
+  .riskFreeHeading{
+    @apply 2xl:text-[80px] 2xl:leading-[96px] 
+
+    /* ---------- common sytles --------- */
+    font-title font-bold text-white
+  }
+
+  .riskFreePara{
+    @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:py-[35px]
+
+    /* ------------- common styeles --------- */
+    font-paragraph font-normal text-white
+  }
+
+
+  .riskFreeBtn{
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[18px] 2xl:py-[17px] 2xl:rounded-[10px]
+
+    /* ------------- common sytles --------- */
+    font-title font-bold bg-white
+  }
+
+  .riskFreeImgParent{
+    @apply 2xl:h-[278px] 2xl:w-[240px]
+  }
+
+
+   /* ====================== Engagement section styles sections =========================== */
+
+  .engagementHeadingParent{
+    @apply text-center
+  }
+  .engagementPara{
+    @apply 2xl:px-[10%] 2xl:pb-[50px]
+  }
+
+  /* ---------- cards styles ----------- */
+  .engagementIconParent{
+    @apply 2xl:h-[86px] 2xl:w-[86px]
+
+    /* --------------- common styles ------------ */
+    rounded-full bg-[#E12026] flex justify-center items-center text-white
+  }
+
+  .engagementCardHeading{
+    @apply 2xl:text-[35px] 2xl:leading-[35px]  2xl:pb-[15px] 2xl:pt-[35.5px]
+
+   /* --------------- common styles ------------ */
+   font-title font-semibold text-left
+  }
+  .engementPara{
+    @apply pb-0 text-left
+  }
+
+  /* ====================== collaboration section styles sections =========================== */
+
+  .collaborationBtn{
+    @apply 2xl:py-[17px] 2xl:px-[27px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px]
+    
+    /* ----------- common styles ------------- */
+    text-white font-title font-bold bg-[#E12026] 
+  }
+
+  .collaborationSingleCardParent{
+    @apply 2xl:h-[183.22px] 2xl:w-[183.22px] 2xl:rounded-[10px]
+
+   /* ----------- common styles ------------- */
+   bg-white flex justify-center items-center
+  }
+
+  .collaborationImgLogoOne{
+    @apply 2xl:h-[91.63px] 2xl:w-[103.62px]
+  }
+  .collaborationImgLogoTwo{
+    @apply 2xl:h-[92.3px] 2xl:w-[99.8px]
+  }
+  .collaborationImgLogoThree{
+    @apply 2xl:h-[91.65px] 2xl:w-[61.4px]
+  }
+  .collaborationImgLogoFour{
+    @apply 2xl:h-[91.6px] 2xl:w-[91.69px]
+  }
+  .collaborationImgLogoFive{
+    @apply 2xl:h-[91.66px] 2xl:w-[93.61px]
+  }
+  .collaborationImgLogoSix{
+    @apply 2xl:h-[91.62px] 2xl:w-[91.72px]
+  }
+
+
+
+
+
+}
