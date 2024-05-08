@@ -1,3 +1,5 @@
+/* eslint-disable no-dupe-keys */
+
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

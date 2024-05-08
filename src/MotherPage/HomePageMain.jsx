@@ -8,6 +8,9 @@ import RiskFreeCta from './RiskFreeCta/RiskFreeCta.jsx';
 import EngagementSection from "./EngagementSection/EngagementSection.jsx";
 import CollaborateSection from "./CollaborateSection/CollaborateSection.jsx";
 import OurWorkSection from "./OurWorkSection/OurWorkSection.jsx";
+import FaqSection from './FaqSection/FaqSection';
+import LetsGoSection from "./LetsGoSection/LetsGoSection.jsx";
+import FooterSection from "./FooterSection/FooterSection.jsx";
 
 
 
@@ -25,6 +28,9 @@ const HomePageMain = () => {
             <RiskFreeCta></RiskFreeCta>
             <EngagementSection></EngagementSection>
             <CollaborateSection></CollaborateSection>
+            <FaqSection></FaqSection>
+            <LetsGoSection></LetsGoSection>
+            <FooterSection></FooterSection>
             
             
         </div>

@@ -129,13 +129,12 @@
 
   /* ====================== our work section styles sections =========================== */
 
-  .ourWorkImgOne{
+  .ourWorkImgOne {
     @apply 2xl:h-[690.98px] z-10
   }
 
-  .sliderArrowIcon{
+  .sliderArrowIcon {
     @apply 2xl:h-[91.69px] 2xl:w-[91.69px]
-
     /* ----------- common styles --------- */
     rounded-full bg-white
   }
@@ -205,129 +204,176 @@
     @apply 2xl:h-[777px] 2xl:px-[10%]
   }
 
-  
+
   /* ====================== our client section styles sections =========================== */
 
-  .peopleCardParent{
-    @apply 2xl:py-[50px] 2xl:px-[35px] 
-  
+  .peopleCardParent {
+    @apply 2xl:py-[50px] 2xl:px-[35px]
   }
 
-  .PeoplePara{
+  .PeoplePara {
     @apply 2xl:text-[25px] 2xl:leading-[35.7px] 2xl:py-[50px]
-
     /* -------- common styles ---------- */
-    font-paragraph font-normal 
+    font-paragraph font-normal
   }
 
-  .peopleProfileImg{
-    @apply 2xl:h-[51px] 2xl:w-[51px] 
-
+  .peopleProfileImg {
+    @apply 2xl:h-[51px] 2xl:w-[51px]
     /* ---------- common sytles --------- */
-    
+
   }
 
-  .peopleProfileHead{
+  .peopleProfileHead {
     @apply 2xl:text-[20px] 2xl:leading-[30px]
-
     /* ---------- common sytles --------- */
     font-title font-medium
   }
 
 
-   /* ====================== Risk Free section styles sections =========================== */
+  /* ====================== Risk Free section styles sections =========================== */
 
-  .riskFreeHeading{
-    @apply 2xl:text-[80px] 2xl:leading-[96px] 
-
+  .riskFreeHeading {
+    @apply 2xl:text-[80px] 2xl:leading-[96px]
     /* ---------- common sytles --------- */
     font-title font-bold text-white
   }
 
-  .riskFreePara{
+  .riskFreePara {
     @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:py-[35px]
-
     /* ------------- common styeles --------- */
     font-paragraph font-normal text-white
   }
 
 
-  .riskFreeBtn{
+  .riskFreeBtn {
     @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[18px] 2xl:py-[17px] 2xl:rounded-[10px]
-
     /* ------------- common sytles --------- */
     font-title font-bold bg-white
   }
 
-  .riskFreeImgParent{
+  .riskFreeImgParent {
     @apply 2xl:h-[278px] 2xl:w-[240px]
   }
 
 
-   /* ====================== Engagement section styles sections =========================== */
+  /* ====================== Engagement section styles sections =========================== */
 
-  .engagementHeadingParent{
+  .engagementHeadingParent {
     @apply text-center
   }
-  .engagementPara{
+
+  .engagementPara {
     @apply 2xl:px-[10%] 2xl:pb-[50px]
   }
 
   /* ---------- cards styles ----------- */
-  .engagementIconParent{
+  .engagementIconParent {
     @apply 2xl:h-[86px] 2xl:w-[86px]
-
     /* --------------- common styles ------------ */
     rounded-full bg-[#E12026] flex justify-center items-center text-white
   }
 
-  .engagementCardHeading{
-    @apply 2xl:text-[35px] 2xl:leading-[35px]  2xl:pb-[15px] 2xl:pt-[35.5px]
-
-   /* --------------- common styles ------------ */
-   font-title font-semibold text-left
+  .engagementCardHeading {
+    @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[15px] 2xl:pt-[35.5px]
+    /* --------------- common styles ------------ */
+    font-title font-semibold text-left
   }
-  .engementPara{
+
+  .engementPara {
     @apply pb-0 text-left
   }
 
   /* ====================== collaboration section styles sections =========================== */
 
-  .collaborationBtn{
+  .collaborationBtn {
     @apply 2xl:py-[17px] 2xl:px-[27px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px]
-    
     /* ----------- common styles ------------- */
-    text-white font-title font-bold bg-[#E12026] 
+    text-white font-title font-bold bg-[#E12026]
   }
 
-  .collaborationSingleCardParent{
+  .collaborationSingleCardParent {
     @apply 2xl:h-[183.22px] 2xl:w-[183.22px] 2xl:rounded-[10px]
-
-   /* ----------- common styles ------------- */
-   bg-white flex justify-center items-center
+    /* ----------- common styles ------------- */
+    bg-white flex justify-center items-center
   }
 
-  .collaborationImgLogoOne{
+  .collaborationImgLogoOne {
     @apply 2xl:h-[91.63px] 2xl:w-[103.62px]
   }
-  .collaborationImgLogoTwo{
+
+  .collaborationImgLogoTwo {
     @apply 2xl:h-[92.3px] 2xl:w-[99.8px]
   }
-  .collaborationImgLogoThree{
+
+  .collaborationImgLogoThree {
     @apply 2xl:h-[91.65px] 2xl:w-[61.4px]
   }
-  .collaborationImgLogoFour{
+
+  .collaborationImgLogoFour {
     @apply 2xl:h-[91.6px] 2xl:w-[91.69px]
   }
-  .collaborationImgLogoFive{
+
+  .collaborationImgLogoFive {
     @apply 2xl:h-[91.66px] 2xl:w-[93.61px]
   }
-  .collaborationImgLogoSix{
+
+  .collaborationImgLogoSix {
     @apply 2xl:h-[91.62px] 2xl:w-[91.72px]
   }
 
+  /* ====================== Faq section styles sections =========================== */
+  .accordianMainParent {
+    @apply 2xl:pb-[15px]
+  }
 
+  .accordianSingleParent {
+    @apply 2xl:flex 2xl:justify-between items-center 2xl:px-[50px] 2xl:pt-[50px] 2xl:pb-[35px]
+    /* -------- common styles here ----------  */
+    bg-[#F1F0F0] rounded-[10px]
+  }
 
+  .accordianHeadText {
+    @apply 2xl:text-[35px] 2xl:leading-[42px]
+    /* ------------ common styles ------------  */
+    font-title font-semibold
+  }
 
+  .accordianIcon {
+    @apply 2xl:text-[76.12px]
+  }
+
+  /* ====================== lets go section styles sections =========================== */
+  
+  .letsGoBtn {
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[19px] 2xl:py-[17px] 2xl:rounded-[10px]
+    /* ------------ common styles ------------  */
+    font-title font-bold bg-white text-black
+  }
+  
+  /* ====================== lets go section styles sections =========================== */
+  .footerHeadingText{
+    @apply 2xl:text-[35px] 2xl:leading-[42px] 2xl:pb-[35px]
+
+    /* ------------ common styles ------------  */
+    font-title font-semibold  
+  }
+
+  .footerPara{
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:pb-[15px]
+
+    /* ------------ common styles ------------  */
+    font-paragraph font-medium
+  }
+
+  .copyrightPara{
+    @apply 2xl:text-[14px] 2xl:leading-[20px] 2xl:pt-[10px]
+
+    /* ------------ common styles ------------  */
+    font-paragraph font-normal
+
+  }
+  .footerDummyBg{
+    @apply 2xl:h-[20px] bg-black w-full
+  }
 
 }
