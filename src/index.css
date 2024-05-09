@@ -139,6 +139,13 @@
     rounded-full bg-white
   }
 
+  .hoverText{
+    @apply 2xl:text-[35px] 2xl:leading-[35px]
+
+     /* ----------- common styles --------- */
+     font-title font-semibold
+  }
+
 
 
 

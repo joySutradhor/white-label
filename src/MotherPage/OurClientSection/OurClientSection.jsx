@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+import { Fade } from "react-awesome-reveal";
 
 const OurClientSection = () => {
     return (
@@ -5,7 +7,7 @@ const OurClientSection = () => {
             <div className="sectionGap">
                 <div className="ourClientHeading">
                     <div>
-                        <h2 className="titleHeading">Our Clients</h2>
+                        <h2 className="titleHeading"><span> <Fade cascade duration={300}>Our Clients</Fade> </span></h2>
                         <p className="commonPara OurClinetPara" >We are a white-label partner for more than 1000+ digital agencies from countries across the globe, including the US, Canada, Ireland, the UK, France, and Australia. We know the ins and outs, and we're here to assist you in growing your agency business.</p>
                     </div>
                 </div>

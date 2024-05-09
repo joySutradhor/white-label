@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 
 
 const RiskFreeCta = () => {
@@ -10,9 +11,11 @@ const RiskFreeCta = () => {
                         <p className="riskFreePara">Our no-risk trial runs let agencies test our service before deciding if they’re 100% confident in partnering with us. Starting with your first project, we will discuss your needs, clear up the scope and requirements, and spend hours of actual coding. This way you will see actual proof if we meet your expectations.</p>
                         <button className="riskFreeBtn">Get a Quick Quote</button>
                     </div>
-                    <div className="riskFreeImgParent">
-                        <img className="h-full w-full object-cover" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715080067/whiteLebel/Group_797_tfdszx.png" alt="Risk free icon" />
-                    </div>
+                    <Fade direction="right">
+                        <div className="riskFreeImgParent">
+                            <img className="h-full w-full object-cover" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715080067/whiteLebel/Group_797_tfdszx.png" alt="Risk free icon" />
+                        </div>
+                    </Fade>
                 </div>
             </div>
         </div>
