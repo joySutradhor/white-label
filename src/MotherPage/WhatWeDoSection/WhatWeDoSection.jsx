@@ -13,17 +13,17 @@ const WhatWeDoSection = () => {
                             <span className="relative z-20"> For You</span>
                             <span className="absolute z-10 2xl:bottom-[55px] 2xl:right-[510px] 2xl:w-[270px] 2xl:h-[7px] bg-red-700"></span>
                         </h2>
-                        <p className="commonPara whatWeDoPara 2xl:pb-[80px]">Our white-label services allow you to expand your offerings to clients with top-notch web development solutions. Our expert team of developers, designers, and project managers work behind the scenes to deliver exceptional results that meet your clients' specific needs.</p>
+                        <p className="commonPara whatWeDoPara 2xl:pb-[80px] xl:pb-[50px]">Our white-label services allow you to expand your offerings to clients with top-notch web development solutions. Our expert team of developers, designers, and project managers work behind the scenes to deliver exceptional results that meet your clients' specific needs.</p>
                     </div>
                 </div>
 
                 {/* ----------- card content here -------- */}
-                <div className="2xl:px-[100px] contentCardMainParent">
+                <div className="contentCardMainParent">
 
                     {/* ----- front End card --------- */}
                     <div>
                         <h3 className="listItemsTitle" > <span><Fade cascade duration={100}>Front-End</Fade></span> </h3>
-                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px]">
+                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px] xl:rounded-[5px] xl:p-[20px]">
                             <div className="listItemParentOne">
                                 <div className="listBullet">
                                     <RiCheckDoubleFill></RiCheckDoubleFill>
@@ -66,7 +66,7 @@ const WhatWeDoSection = () => {
                     {/* ----- Website CMS card --------- */}
                     <div>
                         <h3 className="listItemsTitle" ><span><Fade cascade duration={100}>Website CMS</Fade></span></h3>
-                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px]">
+                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px] xl:rounded-[5px] xl:p-[20px]">
                             <div className="listItemParentOne">
                                 <div className="listBullet">
                                     <RiCheckDoubleFill></RiCheckDoubleFill>
@@ -109,7 +109,7 @@ const WhatWeDoSection = () => {
                     {/* ----- E-Commerce card --------- */}
                     <div>
                         <h3 className="listItemsTitle" ><span><Fade cascade duration={100}>E-Commerce </Fade></span></h3>
-                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px]">
+                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px] xl:rounded-[5px] xl:p-[20px]">
                             <div className="listItemParentOne">
                                 <div className="listBullet">
                                     <RiCheckDoubleFill></RiCheckDoubleFill>
@@ -152,7 +152,7 @@ const WhatWeDoSection = () => {
                     {/* ----- Other Services card --------- */}
                     <div>
                         <h3 className="listItemsTitle" ><span><Fade cascade duration={100}>Other Services </Fade></span> </h3>
-                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px]">
+                        <div className="bg-[#E1DFDF] 2xl:rounded-[10px] 2xl:p-[30px] xl:rounded-[5px] xl:p-[20px]">
                             <div className="listItemParentOne">
                                 <div className="listBullet">
                                     <RiCheckDoubleFill></RiCheckDoubleFill>

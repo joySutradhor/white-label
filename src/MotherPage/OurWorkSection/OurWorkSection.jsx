@@ -10,12 +10,6 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { CgArrowLongRight } from "react-icons/cg";
 import { Fade } from "react-awesome-reveal";
 
-
-
-
-
-
-
 function OurWorkSection() {
     const settings = {
         dots: false,
@@ -35,69 +29,69 @@ function OurWorkSection() {
             <div className="slider-container ">
                 <Slider {...settings}>
 
-                    <div className="ourWorkImgOne 2xl:px-[21px] relative group">
-                        <img className="h-full w-full object-cover 2xl:rounded-[10px] " src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
+                    <div className="ourWorkImgOne 2xl:px-[21px] xl:px-[11px] relative group">
+                        <img className="h-full w-full object-cover 2xl:rounded-[10px]  xl:rounded-[5px] " src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
 
-                        <div className="absolute bottom-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300  text-white  flex justify-between items-center 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px]">
+                        <div className="hoverParent">
                             <button className="text-white  hoverText">Website</button>
                             <div>
-                                <CgArrowLongRight className="text-white 2xl:text-[60px]" />
+                                <CgArrowLongRight className="text-white 2xl:text-[60px] xl:text-[30px] " />
                             </div>
                         </div>
                     </div>
 
-                    <div className="ourWorkImgOne 2xl:px-[21px] relative group">
-                        <img className="h-full w-full object-cover 2xl:rounded-[10px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
+                    <div className="ourWorkImgOne 2xl:px-[21px]  xl:px-[11px] relative group">
+                        <img className="h-full w-full object-cover 2xl:rounded-[10px] xl:rounded-[5px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
 
-                        <div className="absolute bottom-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300  text-white  flex justify-between items-center 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px]">
+                        <div className="hoverParent">
                             <button className="text-white  hoverText">Website</button>
                             <div>
-                                <CgArrowLongRight className="text-white 2xl:text-[60px]" />
+                                <CgArrowLongRight className="text-white 2xl:text-[60px] xl:text-[30px]" />
                             </div>
                         </div>
                     </div>
 
-                    <div className="ourWorkImgOne 2xl:px-[21px] relative group">
-                        <img className="h-full w-full object-cover 2xl:rounded-[10px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
+                    <div className="ourWorkImgOne 2xl:px-[21px]  xl:px-[11px] relative group">
+                        <img className="h-full w-full object-cover 2xl:rounded-[10px] xl:rounded-[5px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
 
-                        <div className="absolute bottom-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300  text-white  flex justify-between items-center 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px]">
+                        <div className="hoverParent">
                             <button className="text-white  hoverText">Website</button>
                             <div>
-                                <CgArrowLongRight className="text-white 2xl:text-[60px]" />
+                                <CgArrowLongRight className="text-white 2xl:text-[60px] xl:text-[30px]" />
                             </div>
                         </div>
 
                     </div>
 
-                    <div className="ourWorkImgOne 2xl:px-[21px] relative group">
-                        <img className="h-full w-full object-cover 2xl:rounded-[10px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
+                    <div className="ourWorkImgOne 2xl:px-[21px]  xl:px-[11px] relative group">
+                        <img className="h-full w-full object-cover 2xl:rounded-[10px] xl:rounded-[5px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
 
-                        <div className="absolute bottom-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300  text-white  flex justify-between items-center 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px]">
+                        <div className="hoverParent">
                             <button className="text-white  hoverText">Website</button>
                             <div>
-                                <CgArrowLongRight className="text-white 2xl:text-[60px]" />
+                                <CgArrowLongRight className="text-white 2xl:text-[60px] xl:text-[30px]" />
                             </div>
                         </div>
                     </div>
 
-                    <div className="ourWorkImgOne 2xl:px-[21px] relative group">
-                        <img className="h-full w-full object-cover 2xl:rounded-[10px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
+                    <div className="ourWorkImgOne 2xl:px-[21px]  xl:px-[11px] relative group">
+                        <img className="h-full w-full object-cover 2xl:rounded-[10px] xl:rounded-[5px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
 
-                        <div className="absolute bottom-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300  text-white  flex justify-between items-center 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px]">
+                        <div className="hoverParent">
                             <button className="text-white  hoverText">Website</button>
                             <div>
-                                <CgArrowLongRight className="text-white 2xl:text-[60px]" />
+                                <CgArrowLongRight className="text-white 2xl:text-[60px] xl:text-[30px]" />
                             </div>
                         </div>
                     </div>
 
-                    <div className="ourWorkImgOne 2xl:px-[21px] relative group">
-                        <img className="h-full w-full object-cover 2xl:rounded-[10px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
+                    <div className="ourWorkImgOne 2xl:px-[21px] xl:px-[11px] relative group">
+                        <img className="h-full w-full object-cover 2xl:rounded-[10px] xl:rounded-[5px]" src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1715106172/e11_bqzgvc.jpg" alt="website img" />
 
-                        <div className="absolute bottom-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300  text-white  flex justify-between items-center 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px]">
+                        <div className="hoverParent">
                             <button className="text-white  hoverText">Website</button>
                             <div>
-                                <CgArrowLongRight className="text-white 2xl:text-[60px]" />
+                                <CgArrowLongRight className="text-white 2xl:text-[60px] xl:text-[30px]" />
                             </div>
                         </div>
                     </div>

@@ -81,28 +81,31 @@
 }
 
 /* --------------- for 1366px large devices ------------- */
-@media (min-width: 1366px) {
+@media (min-width: 1280px) {
 
     .arrow-button {
-        /* background-color: #3498db;  */
         color: #fff;
-        font-size: 20px;
+        font-size: 60px;
         border: none;
         cursor: pointer;
         position: absolute;
-        bottom: 0px;
+        bottom: 37%;
+        transform: translate(-50%, -50%);
+        left: 10px;
         z-index: 50;
     }
 
     .arrow-button2 {
 
         color: #fff;
-        font-size: 20px;
+        font-size: 60px;
         border: none;
         cursor: pointer;
         position: absolute;
-        bottom: 0px;
-        margin-left: 40px;
+        bottom: 37%;
+        transform: translate(-50%, -50%);
+        right: -50px;
+        z-index: 50;
     }
 
 }

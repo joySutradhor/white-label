@@ -2,11 +2,11 @@
 
 const CollaborateSection = () => {
     return (
-        <div className="2xl:pt-[200px]">
+        <div className="2xl:pt-[200px] xl:pt-[100px]">
             <div>
-                <div className="bg-black 2xl:px-[100px] 2xl:py-[50px] rounded-[10px] text-white">
+                <div className="bg-black xl:px-[50px] xl:py-[40px] xl:rounded-[5px] 2xl:px-[100px] 2xl:py-[50px] 2xl:rounded-[10px] text-white">
                     <div className="flex justify-between items-center">
-                        <div className="2xl:w-[60%]  ">
+                        <div className="2xl:w-[60%] xl:w-[50%]  ">
                             <h2 className="titleHeading relative">
                                 <span className="relative z-20">Work & Collaborate With</span>
                                 <span className="absolute z-10 2xl:bottom-[149px] left-0 2xl:w-[920px] 2xl:h-[7px] bg-red-700"></span>
